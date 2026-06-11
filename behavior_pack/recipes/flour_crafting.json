@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "windmill:flour_from_wheat"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "W"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": {
+      "item": "windmill:flour",
+      "count": 4
+    }
+  }
+}

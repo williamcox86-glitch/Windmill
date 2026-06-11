@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "windmill:windmill_build"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "BWB",
+      "WBW",
+      "BWB"
+    ],
+    "key": {
+      "B": {
+        "item": "windmill:windmill_blade"
+      },
+      "W": {
+        "item": "minecraft:dark_oak_wood"
+      }
+    },
+    "result": {
+      "item": "windmill:windmill",
+      "count": 1
+    }
+  }
+}

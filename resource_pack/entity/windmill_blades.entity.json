@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "windmill:windmill_blades",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/windmill_blades"
+      },
+      "geometry": {
+        "default": "geometry.windmill_blades"
+      },
+      "animations": {
+        "spin": "animation.windmill.spin"
+      },
+      "animation_controllers": [
+        {
+          "animation.windmill.spin_controller": "animation.windmill.spin_controller"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

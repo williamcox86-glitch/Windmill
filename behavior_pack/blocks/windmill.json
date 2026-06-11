@@ -1,0 +1,30 @@
+{
+  "format_version": [1, 1, 0],
+  "minecraft:block": {
+    "description": {
+      "identifier": "windmill:windmill",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 5.0
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#8B7355",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "windmill_base"
+        }
+      },
+      "minecraft:geometry": "geometry.windmill",
+      "minecraft:creative_category": {
+        "category": "construction"
+      }
+    }
+  }
+}

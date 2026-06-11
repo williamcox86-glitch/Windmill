@@ -1,0 +1,41 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "windmill:windmill_blades",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["windmill"]
+      },
+      "minecraft:health": {
+        "value": 1
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:collision_box": {
+        "width": 1.0,
+        "height": 1.0
+      },
+      "minecraft:boundingbox": {
+        "width": 1.0,
+        "height": 1.0
+      }
+    },
+    "animations": {
+      "rotate": "animation.windmill.spin"
+    },
+    "animation_controllers": [
+      {
+        "animation.windmill.spin_controller": "animation.windmill.spin_controller"
+      }
+    ]
+  }
+}

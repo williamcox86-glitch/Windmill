@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.windmill",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 16,
+        "visible_bounds_height": 16,
+        "visible_bounds_offset": [0, 8, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0],
+          "cubes": []
+        },
+        {
+          "name": "base",
+          "parent": "root",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-8, 0, -8],
+              "size": [16, 2, 16],
+              "uv": [0, 0]
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "root",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1, 2, -1],
+              "size": [2, 12, 2],
+              "uv": [0, 20]
+            }
+          ]
+        },
+        {
+          "name": "hub",
+          "parent": "root",
+          "pivot": [0, 14, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, 13, -1.5],
+              "size": [3, 2, 3],
+              "uv": [0, 35]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

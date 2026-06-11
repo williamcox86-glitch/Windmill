@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "windmill:windmill_blade_craft"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "SWS",
+      "W W"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "W": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    "result": {
+      "item": "windmill:windmill_blade",
+      "count": 1
+    }
+  }
+}

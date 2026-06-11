@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Windmill Addon - Resources",
+    "name": "Windmill Addon Resources",
+    "uuid": "abcdefgh-abcd-abcd-abcd-abcdefghijkl",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 0]
+  },
+  "modules": [
+    {
+      "description": "Windmill Resource Pack",
+      "type": "resources",
+      "uuid": "ijklmnop-ijkl-ijkl-ijkl-ijklmnopqrst",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "resource_pack_name": "windmill_addon",
+  "texture_name": "atlas.blocks",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "windmill_base": {
+      "textures": [
+        "textures/blocks/windmill_base"
+      ]
+    },
+    "windmill_blade": {
+      "textures": [
+        "textures/items/windmill_blade"
+      ]
+    },
+    "flour": {
+      "textures": [
+        "textures/items/flour"
+      ]
+    }
+  }
+}
