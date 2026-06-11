@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "windmill:flour_to_cake"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "FFF",
+      "FEF",
+      "FFF"
+    ],
+    "key": {
+      "F": {
+        "item": "windmill:flour"
+      },
+      "E": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": {
+      "item": "minecraft:cake",
+      "count": 1
+    }
+  }
+}
